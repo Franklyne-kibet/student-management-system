@@ -1,2 +1,2 @@
 # student-management-system
-Student management system is a program developed using Pythona and MySQL
+Student Management System is developed using Python and MySQL to help manage the student database.
