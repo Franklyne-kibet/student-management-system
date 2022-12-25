@@ -7,10 +7,10 @@ from PIL import ImageTk
 def login():
     if usernameEntry.get()=='' or passwordEntry.get()=='':
         messagebox.showerror('Error','Fields cannot be empty')
-    elif usernameEntry.get()== 'Enter Your User Name' and passwordEntry.get() == 'Set your password':
+    elif usernameEntry.get()== 'Franklyne' and passwordEntry.get() == '12345':
         messagebox.showinfo('Success','Welcome') 
         window.destroy()
-        import sms 
+        import student
     else:
         messagebox.showerror('Error','Please enter correct username and password')
 
